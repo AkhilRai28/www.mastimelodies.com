@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spotify-like Interface</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <div class="logo">
+        <h2>Spotify</h2>
+      </div>
+      <ul class="menu">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Your Library</a></li>
+      </ul>
+      <div class="playlists">
+        <h3>Playlists</h3>
+        <ul>
+          <li><a href="#">Playlist 1</a></li>
+          <li><a href="#">Playlist 2</a></li>
+          <li><a href="#">Playlist 3</a></li>
+          <li><a href="#">Playlist 4</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main-content">
+      <header>
+        <h1>Welcome to Your Music</h1>
+        <input type="text" placeholder="Search for songs, artists..." />
+      </header>
+      <section class="tracks">
+        <div class="track" data-track="1">
+          <p>Track Title 1 - Artist 1</p>
+        </div>
+        <div class="track" data-track="2">
+          <p>Track Title 2 - Artist 2</p>
+        </div>
+        <div class="track" data-track="3">
+          <p>Track Title 3 - Artist 3</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
